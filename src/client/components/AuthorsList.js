@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { graphql } from 'react-apollo';
-import query from '../queries/fetchAuthors';
+import query from '../apollo/queries/fetchAuthors';
 
 class AuthorsList extends Component {
   renderAuthors() {
